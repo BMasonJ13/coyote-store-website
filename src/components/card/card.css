@@ -1,0 +1,88 @@
+
+:root{
+
+    --card-color: #242424;
+    --hover-color: #242424;
+    --ribbon-color: #ED1C24;
+    --name-color: #EEEEEE;
+    --date-color: #EEEEEE;
+    --tickets-color: #EEEEEE;
+    
+}
+
+.card-container{
+    width: 200px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px -5px;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+
+    background-color: var(--card-color);
+    transition: 0.4s;
+}
+
+.card-container:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 0px 12px -5px;
+}
+
+.card-container:hover .action-button{
+    background-color: var(--hover-color);
+}
+
+.card-container:hover{
+    background-color: var(--hover-color);
+}
+
+.card-container:hover .artist-name{
+    color: var(--card-color);
+}
+
+.image-container{
+    overflow: hidden;
+    height: 150px;
+    position: relative;
+}
+
+.card-image{
+    width: 100%;
+}
+
+.date-ribbon{
+    position: absolute;
+    top: 0px;
+    right: 10px;
+
+    padding: 5px;
+
+    border-radius: 0px 0px 10px 10px ;
+
+    font-size: .8rem;
+    color: var(--date-color);
+    background-color: var(--ribbon-color);
+}
+
+.artist-name{
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-align: center;
+    margin: 10px;
+    color: var(--name-color);
+}
+
+.artist-name span{
+    color: var(--name-color);
+}
+
+.action-button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: var(--card-color);
+    color: var(--name-color);
+    font-weight: 900;
+    font-size: 1.2rem;
+
+    transition: 0.4s;
+}
