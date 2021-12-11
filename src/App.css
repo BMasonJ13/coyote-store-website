@@ -2,8 +2,9 @@
   text-align: center;
 }
 
-html, body{
-  overflow: hidden;
+body{
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .App-logo {
