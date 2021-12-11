@@ -191,6 +191,11 @@ nav{
     nav{
         display: block;
     }
+
+    .navigation-container{
+    max-width: 1080px;
+}
+
 }
 
 
