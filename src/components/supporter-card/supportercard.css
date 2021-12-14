@@ -1,0 +1,35 @@
+
+:root{
+    --navigation-bar-color: #242424;
+    --logo-color: #EEEEEE;
+    --hover-color: #ED1C24;
+}
+
+.supporter-card-container{
+
+    margin: 20px;
+    width: 300px;
+    padding-top: 40px;
+    background-color: var(--navigation-bar-color);
+    display: flex;
+    flex-direction: column;
+    border-radius: 40px;
+    overflow: hidden;
+
+    transition: 0.4s;
+}
+
+.supporter-card-container:hover{
+    transform: scale(1.05);
+}
+
+.supporter-card-image{
+    height: 150px;
+    object-fit: scale-down;
+}
+
+.supporter-card-name{
+    text-align: center;
+    padding: 20px;
+    color: var(--logo-color);
+}

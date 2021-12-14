@@ -70,4 +70,5 @@
 .hero-button:hover{
     background-color: var(--text-color);
     color: var(--accent-color);
+    border-color: var(--accent-color);
 }

@@ -1,4 +1,10 @@
 
+:root{
+    --navigation-bar-color: #242424;
+    --logo-color: #EEEEEE;
+    --hover-color: #ED1C24;
+}
+
 .about-us-text{
     margin-top: 100px;
 }
@@ -14,4 +20,25 @@
     padding: 15px;
     max-width: 1080px;
     width: 60%;
+}
+
+.about-us-action{
+    text-decoration: none;
+    padding: 1rem 2rem;
+    background-color: var(--hover-color);
+    border-radius: 30px;
+    color: var(--logo-color);
+    font-weight: 900;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--navigation-bar-color);
+
+    margin-bottom: 20px;
+    transition: 0.4s;
+}
+
+.about-us-action:hover{
+    background-color: var(--logo-color);
+    color: var(--hover-color);
 }
