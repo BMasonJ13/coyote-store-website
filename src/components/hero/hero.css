@@ -53,8 +53,7 @@
     border-width: 2px;
     border-style: solid;
     box-shadow: none;
-    background-color: transparent;
-    border-color: var(--accent-color);
+    border-color: var(--text-color);
     background-color: var(--accent-color);
     color: var(--text-color);
     font-weight: bold;
