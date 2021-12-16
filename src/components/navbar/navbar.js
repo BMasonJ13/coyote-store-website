@@ -25,6 +25,7 @@ const NavBar = () =>
                     <Link className="nav-link" to="/About">About</Link>
                     <Link className="nav-link" to="/FAQ">FAQ</Link>
                     <Link className="nav-link" to="/Supporters">Supporters</Link>
+                    <Link className="nav-link" to="/Gallery">Gallery</Link>
                     <Link className="nav-link" to="/Cafe">Cafe</Link>
                     <Link className="nav-link" to="/Merch">Merch</Link>
                     <Link className="nav-link" id="action" to="/Concerts">Concerts</Link>
@@ -42,6 +43,7 @@ const NavBar = () =>
                     <Link className="nav-link" to="/About">About</Link>
                     <Link className="nav-link" to="/FAQ">FAQ</Link>
                     <Link className="nav-link" to="/Supporters">Supporters</Link>
+                    <Link className="nav-link" to="/Gallery">Gallery</Link>
                     <Link className="nav-link" to="/Cafe">Cafe</Link>
                     <Link className="nav-link" to="/Merch">Merch</Link>
                     <Link className="nav-link" to="/Concerts">Concerts</Link>
