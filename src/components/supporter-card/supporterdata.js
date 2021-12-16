@@ -33,6 +33,7 @@ import HempMatrix from '../../res/supporters/HempMatrix.jpg'
 import HerdMcBane from '../../res/supporters/HerdMcBane.jpg'
 import HinkleKnives from '../../res/supporters/HinkleKnives.jpg'
 import HoneyBadger from '../../res/supporters/HoneyBadger.jpg'
+import HRSMinistries from '../../res/supporters/HRSMinistries.png'
 import HubCityRentals from '../../res/supporters/HubCityRentals.jpg'
 
 import HulanHamlin from '../../res/supporters/HulanHamlin.png'
@@ -224,6 +225,10 @@ const SupporterData =
     {
         image: HinkleKnives,
         name: "Hinkle Knives",
+    },
+    {
+        image: HRSMinistries,
+        name: "HRS Ministries",
     },
     {
         image: HoneyBadger,
