@@ -1,4 +1,23 @@
 
+:root{
+    --navigation-bar-color: #242424;
+    --logo-color: #EEEEEE;
+    --hover-color: #ED1C24;
+}
+
+.supporters-action-section{
+     margin: 120px auto 20px auto;
+}
+
+.supporters-action-section h1{
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.supporters-action-section span{
+     color: var(--hover-color);
+}
+
 .supporters-card-section{
     margin: 120px auto 70px auto;
 

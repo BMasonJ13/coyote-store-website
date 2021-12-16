@@ -16,6 +16,7 @@ import Chapman from '../../res/supporters/Chapman.jpg'
 import ChoateWellService from '../../res/supporters/ChoateWellService.png'
 import ChirstyandCharlesGarner from '../../res/supporters/ChristyandCharlesGarner.jpg'
 import CommercialElectricWolforthTexas from '../../res/supporters/CommercialElectricWolforthTexas.jpg'
+import CotterKeyFarms from '../../res/supporters/CotterKeyFarms.jpg'
 import DarleneJenkinsCFP from '../../res/supporters/DarleneJenkinsCFP.jpg'
 import DesertCowgirl from '../../res/supporters/DesertCowgirl.png'
 import DGERentals from '../../res/supporters/DGERentals.jpg'
@@ -48,6 +49,7 @@ import KLCTireCompany from '../../res/supporters/KLCTireCompany.jpg'
 import KRFERadio from '../../res/supporters/KRFERadio.jpg'
 import KwikKar from '../../res/supporters/KwikKar.jpg'
 import LisaLudeckeandJerryStone from '../../res/supporters/LisaLudeckeandJerryStone.jpg'
+import LonghornLeather from '../../res/supporters/LonghornLeather.jpg'
 import LubbockSound from '../../res/supporters/LubbockSound.png'
 import LulusBackyard from '../../res/supporters/LulusBackyard.jpg'
 
@@ -165,6 +167,10 @@ const SupporterData =
     {
         image: CommercialElectricWolforthTexas,
         name: "Commercial Electric Wolforth Texas",
+    },
+    {
+        image: CotterKeyFarms,
+        name: "Cotter Key Farms",
     },
     {
         image: DarleneJenkinsCFP,
@@ -285,6 +291,10 @@ const SupporterData =
     {
         image: LisaLudeckeandJerryStone,
         name: "Lisa Ludecke and Jerry Stone",
+    },
+    {
+        image: LonghornLeather,
+        name: "Longhorn Leather Works",
     },
     {
         image: LubbockSound,

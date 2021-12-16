@@ -12,6 +12,9 @@ const Supporters = () =>
     return(
         <>
             <NavBar />
+            <div className="supporters-action-section">
+                <h1>Our <span>Legendary</span> Supporters</h1>
+            </div>
             <div className="supporters-card-section">
                 {SupporterData.map((supporter) => (
                     <SupporterCard 

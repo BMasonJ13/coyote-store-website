@@ -9,7 +9,7 @@ const Footer = () =>
         <div className="footer-container">
             <div className="media-container">
             </div>
-            <img className="logo logo-footer" src={Logo} alt=""></img>
+            <img className="logo-footer" src={Logo} alt=""></img>
             <div className="page-owner">
                 <h4>&copy; 2022 The Legendary Coyote Store</h4>
             </div>
