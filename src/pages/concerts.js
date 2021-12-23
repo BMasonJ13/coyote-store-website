@@ -5,13 +5,28 @@ import ConcertCard from '../components/concert-card/concert-card'
 import './concerts.css'
 
 import ConcertData from '../components/concert-card/concert-data'
+import SuperConcertCard from "../components/super-concert-card/SuperConcertCard"
+import SuperCardImage from '../res/Trifecta.jpg'
 
 const Concerts = () => {
 
     return (
         <>
             <NavBar />
+            
             <div className="concert-cards-container" id="top">
+            <SuperConcertCard 
+                image={SuperCardImage}
+                nameA="Gene Watson" 
+                nameB="The Bellamy Brothers" 
+                nameC="David Frizzell"
+                date="Oct. 29"
+                time="6:00pm"
+                path="https://www.outhousetickets.com/Event/18324-COYOTE_SUPER_SHOW_-_Gene_Watson_The_Bellamy_Brothers_David_Frizzell/"
+                />
+            </div>
+
+            <div className="concert-cards-container"> 
                 {ConcertData.map((concert) => (
                     <ConcertCard image={concert.image} 
                     artistName={concert.artistName} 

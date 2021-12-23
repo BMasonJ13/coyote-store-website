@@ -1,0 +1,79 @@
+
+:root{
+    --red-color: #ED1C24;
+    --gold-color: #D4AF37;
+    --black-color: #242424;
+    --white-color: #EEEEEE;
+}
+
+.super-concert-card-container{
+    background-color: var(--black-color);
+
+    border-radius: 40px;
+    overflow: hidden;
+    transition: 0.4s;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+}
+
+.super-concert-card-container:hover{
+    transform: scale(1.03);
+}
+
+.super-concert-card-title{
+    text-align: center;
+
+    color: var(--gold-color);
+    padding: 10px;
+
+}
+
+.super-concert-card-image{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: 0 10%;
+    align-self: center;
+}
+
+.super-concert-bottom-container{
+    background-color: var(--gold-color);
+    padding: 5px 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.super-concert-card-row{
+    color: var(--black-color);
+    display: flex;
+    margin: 5px 0px;
+}
+
+.super-concert-card-row h3{
+    margin-left: 10px;
+}
+
+.super-concert-ticket-button{
+        margin: 10px 0px;
+        padding: 8px 20px;
+        max-width: calc(100% - 50px);
+    
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: 700;
+        background-color: var(--black-color);
+        color: var(--white-color);
+        border-radius: 10px;
+         border: 2px solid var(--black-color);
+        text-align: center;
+
+        transition: 0.4s;
+    
+}
+
+.super-concert-ticket-button:hover{
+    background-color: var(--white-color);
+    color: var(--red-color);
+    cursor: pointer;
+}

@@ -1,4 +1,6 @@
 
+//TODO Some of these pictures are the same need to replace them via filename data.
+
 import CoyoteImage1 from '../../res/Gallery/CoyoteImage (1).jpg'
 import CoyoteImage2 from '../../res/Gallery/CoyoteImage (2).jpg'
 import CoyoteImage3 from '../../res/Gallery/CoyoteImage (3).jpg'

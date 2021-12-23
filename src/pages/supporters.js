@@ -5,15 +5,18 @@ import Footer from '../components/footer/Footer'
 import SupporterCard from '../components/supporter-card/supportercard'
 import SupporterData from '../components/supporter-card/supporterdata'
 import './supporters.css'
+import Banner from '../components/banner/banner'
+import BannerImage from '../res/SupporterBanner.jpg'
 
 const Supporters = () =>
 {
-
+//<h1>Our <span>Legendary</span> Supporters</h1>
     return(
         <>
             <NavBar />
             <div className="supporters-action-section">
-                <h1>Our <span>Legendary</span> Supporters</h1>
+                <Banner image={BannerImage} title="BECOME A SUPPORTER">
+                </Banner>
             </div>
             <div className="supporters-card-section">
                 {SupporterData.map((supporter) => (
