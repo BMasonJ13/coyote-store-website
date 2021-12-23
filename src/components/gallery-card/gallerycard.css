@@ -1,0 +1,16 @@
+
+.gallery-card-container{
+    overflow: hidden;
+    height: 200px;
+
+    transition: 0.4s;
+}
+
+.gallery-card-container:hover{
+    transform: scale(1.05);
+}
+
+.gallery-card-image{
+    height: 200px;
+}
+

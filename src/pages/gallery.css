@@ -1,0 +1,9 @@
+
+.gallery-gallery-card-section{
+    margin: 74px auto 0 auto;
+    display: flex;
+    max-width: 1080px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}

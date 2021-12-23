@@ -7,6 +7,7 @@ import Concerts from './pages/concerts';
 import FAQ from './pages/faq';
 import Supporters from './pages/supporters';
 import Cafe from './pages/cafe'
+import Gallery from './pages/gallery';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route exact path="/About" element={<About />} />
         <Route exact path="/FAQ" element={<FAQ />} />
         <Route exact path='/Supporters' element={<Supporters />} />
+        <Route exact path='/Gallery' element={<Gallery />} />
         <Route exact path='/Cafe' element={<Cafe />} />
         <Route exact path="/Merch" element={<Merch />} />
         <Route exact path="/Concerts" element={<Concerts/>} />
