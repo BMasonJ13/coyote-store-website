@@ -2,9 +2,9 @@
 import React from "react";
 import Navbar from '../components/navbar/navbar'
 import Footer from '../components/footer/Footer'
+import { Carousel } from 'react-carousel-minimal'
 
 import GalleryData from "../components/gallery-card/gallerydata";
-import GalleryCard from "../components/gallery-card/gallerycard";
 
 import './gallery.css'
 
@@ -14,12 +14,20 @@ const Gallery = () =>
     return(
         <>
             <Navbar />
-            <div className="gallery-gallery-card-section">
-                {GalleryData.map((gallery) => (
-                    <GalleryCard image={gallery.image} />
-                ))}
+            <section>
+            <Carousel 
+                data={GalleryData}
+                time={4000}
+                automatic={true}
+                width="1080px"
+                height="50vh"
+                slideBackgroundColor="#242424"
+                slideImageFit="cover"
+                />
+            </section>
+            <div className="footer-stick">
+                <Footer />
             </div>
-            <Footer />
         </>
     )
 
