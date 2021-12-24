@@ -8,6 +8,7 @@ import FAQ from './pages/faq';
 import Supporters from './pages/supporters';
 import Cafe from './pages/cafe'
 import Gallery from './pages/gallery';
+import Contact from './pages/contact';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home/>} />
         <Route exact path="/About" element={<About />} />
+        <Route exact path="/Contact" element={<Contact />} />
         <Route exact path="/FAQ" element={<FAQ />} />
         <Route exact path='/Supporters' element={<Supporters />} />
         <Route exact path='/Gallery' element={<Gallery />} />

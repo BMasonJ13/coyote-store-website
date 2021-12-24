@@ -23,6 +23,7 @@ const NavBar = () =>
                 <ul>
                     <Link className="nav-link" to="/">Home</Link>
                     <Link className="nav-link" to="/About">About</Link>
+                    <Link className="nav-link" to="/Contact">Contact</Link>
                     <Link className="nav-link" to="/FAQ">FAQ</Link>
                     <Link className="nav-link" to="/Supporters">Supporters</Link>
                     <Link className="nav-link" to="/Gallery">Gallery</Link>
@@ -41,6 +42,7 @@ const NavBar = () =>
                 <ul>
                     <Link className="nav-link" to="/">Home</Link>
                     <Link className="nav-link" to="/About">About</Link>
+                    <Link className="nav-link" to="/Contact">Contact</Link>
                     <Link className="nav-link" to="/FAQ">FAQ</Link>
                     <Link className="nav-link" to="/Supporters">Supporters</Link>
                     <Link className="nav-link" to="/Gallery">Gallery</Link>

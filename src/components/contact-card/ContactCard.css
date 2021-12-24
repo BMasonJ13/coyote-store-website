@@ -1,0 +1,33 @@
+
+:root{
+    --red-color: #ED1C24;
+    --black-color: #242424;
+    --white-color: #EEEEEE;
+}
+
+.contact-card-container{
+    background-color: var(--black-color);
+    border-radius: 40px;
+}
+
+.contact-card-image-container{
+    
+}
+
+.contact-card-image{
+    
+}
+
+.contact-bottom-container{
+    padding: 25px;
+    color: var(--white-color);
+}
+
+.contact-info-row{
+    display: flex;
+    padding: 5px 0;
+}
+
+.contact-info-row h3{
+    margin: -2px 0 0 10px;
+}
