@@ -9,7 +9,7 @@ const ContactCard = ({image, name, description, email, phone}) =>
     return(
         <div className="contact-card-container">
             <div className="contact-card-image-container">
-                <img className="contact-card-image" src={image} />
+                <img className="contact-card-image" src={image} alt=""/>
             </div>
             <div className="contact-bottom-container">
                 <div className="contact-info-row">

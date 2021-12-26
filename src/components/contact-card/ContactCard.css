@@ -8,14 +8,20 @@
 .contact-card-container{
     background-color: var(--black-color);
     border-radius: 40px;
+
+    overflow: hidden;
+    width: 400px;
 }
 
 .contact-card-image-container{
-    
+    height: 250px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
 
 .contact-card-image{
-    
+    height: 250px;
 }
 
 .contact-bottom-container{
