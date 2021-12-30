@@ -6,11 +6,11 @@
 }
 
 .contact-card-container{
-    background-color: var(--black-color);
     border-radius: 40px;
 
     overflow: hidden;
     width: 400px;
+    height: 500px;
 }
 
 .contact-card-image-container{
@@ -22,11 +22,12 @@
 
 .contact-card-image{
     height: 250px;
+    border-radius: 20px;
 }
 
 .contact-bottom-container{
     padding: 25px;
-    color: var(--white-color);
+    color: var(--black-color);
 }
 
 .contact-info-row{
@@ -36,4 +37,5 @@
 
 .contact-info-row h3{
     margin: -2px 0 0 10px;
+    font-weight: 500;
 }

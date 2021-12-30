@@ -38,9 +38,7 @@ const Contact = () =>
                 phone="(806) 759-8570"
                 />
             </div>
-            <div className="footer-stick">
-                <Footer />
-            </div>
+            <Footer />
         </>
     )
 

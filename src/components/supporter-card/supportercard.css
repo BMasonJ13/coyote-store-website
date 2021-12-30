@@ -33,3 +33,23 @@
     padding: 20px;
     color: var(--logo-color);
 }
+
+.supporter-card-action{
+    text-align: center;
+    text-decoration: none;
+    background-color: var(--hover-color);
+    padding: 5px;
+    margin: 10px 30px;
+    margin-top: -10px;
+
+    border-radius: 20px;
+    color: var(--logo-color);
+    font-size: 1rem;
+    font-weight: 900;
+    transition: 0.4s;
+}
+
+.supporter-card-action:hover{
+    background-color: var(--logo-color);
+    color: var(--hover-color);
+}

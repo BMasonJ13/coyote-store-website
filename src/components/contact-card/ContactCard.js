@@ -16,10 +16,7 @@ const ContactCard = ({image, name, description, email, phone}) =>
                     <FontAwesomeIcon icon={Icons.faUser} />
                     <h3>{name}</h3>
                 </div>
-                <div className="contact-info-row">
-                    <FontAwesomeIcon icon={Icons.faPen} />
-                    <h3>{description}</h3>
-                </div>
+                
                 <div className="contact-info-row">
                     <FontAwesomeIcon icon={Icons.faEnvelope} />
                     <h3>{email}</h3>
@@ -27,6 +24,10 @@ const ContactCard = ({image, name, description, email, phone}) =>
                 <div className="contact-info-row">
                     <FontAwesomeIcon icon={Icons.faPhone} />
                     <h3>{phone}</h3>
+                </div>
+                <div className="contact-info-row">
+                    <FontAwesomeIcon icon={Icons.faPen} />
+                    <h3>{description}</h3>
                 </div>
             </div>
         </div>

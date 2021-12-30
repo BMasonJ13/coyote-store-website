@@ -107,6 +107,7 @@ const SupporterData =
     {
         image: A1Motors,
         name: "A-1 Motors",
+        path: "https://www.a1motorslubbock.net/",
     },
     {
         image: AgTexas,
@@ -122,11 +123,13 @@ const SupporterData =
     },
     {
         image: ASocialKey,
-        name: "A Social Key"
+        name: "A Social Key",
+        path: "https://www.asocialkey.com/",
     },
     {
         image: AW,
         name: "A&W Energy",
+        path: "https://www.aw.energy/"
     },
     {
         image: BBRoustabout,
@@ -139,6 +142,7 @@ const SupporterData =
     {
         image: BigMikesFarmStore,
         name: "Big Mike's Farm Store",
+        path: "https://www.facebook.com/bigmikesfarmstore/",
     },
     {
         image: BlueDRanch,
@@ -151,6 +155,7 @@ const SupporterData =
     {
         image: CaprockCreditUnition,
         name: "Caprock Credit Unition",
+        path: "https://www.caprockcu.com/",
     },
     {
         image: Chapman,
@@ -159,6 +164,7 @@ const SupporterData =
     {
         image: ChoateWellService,
         name: "Choate Well Service",
+        path: "https://www.facebook.com/ChoateWellService/",
     },
     {
         image: ChirstyandCharlesGarner,
@@ -167,14 +173,17 @@ const SupporterData =
     {
         image: CommercialElectricWolforthTexas,
         name: "Commercial Electric Wolforth Texas",
+        path: "http://www.commercialelectrictx.com/",
     },
     {
         image: CotterKeyFarms,
         name: "Cotter Key Farms",
+        path: "https://www.cotterkeyfarms.com/",
     },
     {
         image: DarleneJenkinsCFP,
         name: "Darlene Jenkins CFP",
+        path: "http://www.debacaclinic.com/WP2017/family-medicine/",
     },
     {
         image: DesertCowgirl,
@@ -219,6 +228,7 @@ const SupporterData =
     {
         image: HargroveInsurance,
         name: "Hargrove Insurance",
+        path: "https://www.hargroveinsurance.com/",
     },
     {
         image: HempMatrix,
@@ -235,14 +245,17 @@ const SupporterData =
     {
         image: HRSMinistries,
         name: "HRS Ministries",
+        path: "https://www.facebook.com/HRSMinistriesInc/",
     },
     {
         image: HoneyBadger,
         name: "Honey Badger",
+        path: "https://www.facebook.com/Honey-Badger-Energy-Services-112319590175121/",
     },
     {
         image: HubCityRentals,
         name: "Hub City Rentals",
+        path: "https://www.hubcityrentalsllc.com/",
     },
     {
         image: HulanHamlin,
@@ -271,6 +284,7 @@ const SupporterData =
     {
         image: KDsKorral,
         name: "KD's Korral",
+        path: "https://www.facebook.com/kdskorral",
     },
     {
         image: KeithandTammyHughes,
@@ -279,6 +293,7 @@ const SupporterData =
     {
         image: KLCTireCompany,
         name: "KLC Tire Company",
+        path: "https://www.klctireandauto.com/",
     },
     {
         image: KRFERadio,
@@ -287,6 +302,7 @@ const SupporterData =
     {
         image: KwikKar,
         name: "Kwik Kar",
+        path: "https://www.facebook.com/Kwik-Kar-of-Snyder-421067987988571/",
     },
     {
         image: LisaLudeckeandJerryStone,
@@ -299,6 +315,7 @@ const SupporterData =
     {
         image: LubbockSound,
         name: "Lubbock Sound",
+        path: "https://www.lubbocksound.com/",
     },
     {
         image: LulusBackyard,
@@ -323,18 +340,22 @@ const SupporterData =
     {
         image: PhillipsFabrication,
         name: "Phillips Fabrication",
+        path: "https://www.philfab.com/",
     },
     {
         image: PimaOil,
         name: "Pima Oil",
+        path: "https://www.pimaoil.com/"
     },
     {
         image: PistolaWaterSourcing,
         name: "Pistola Water Sourcing",
+        path: "https://www.pistolaagua.com/",
     },
     {
         image: PromainlandSafety,
         name: "Promain Land Safety",
+        path: "https://www.promainlandsafety.com/",
     },
     {
         image: RackSalesInc,
@@ -371,6 +392,7 @@ const SupporterData =
     {
         image: RusticWarehouse,
         name: "Rustic Warehouse",
+        path: "https://www.lubbockwarehousesales.com/",
     },
     {
         image: RustyMcDanielTexasFarmBureau,
@@ -379,6 +401,7 @@ const SupporterData =
     {
         image: ScottChiropractic,
         name: "Scott Chiropractic",
+        path: "https://www.facebook.com/people/Scott-Family-Chiropractic-Seminole/100057322994888/"
     },
     {
         image: SGTTrucking,
@@ -387,6 +410,7 @@ const SupporterData =
     {
         image: ShroyerMotors,
         name: "Shroyer Motors",
+        path: "https://www.shroyermotorcompany.com/",
     },
     {
         image: Sloshee,
@@ -395,6 +419,7 @@ const SupporterData =
     {
         image: SnellDrilling,
         name: "Snell Drilling",
+        path: "https://www.facebook.com/snelldrilling/",
     },
     {
         image: SnyderChamberofCommerce,
@@ -403,18 +428,22 @@ const SupporterData =
     {
         image: SouthPlainsLogistics,
         name: "South Plains Logistics",
+        path: "https://www.southplainslogistics.com/"
     },
     {
         image: SouthPlainsRailroadCompany,
         name: "South Plains Railroad Company",
+        path: "https://www.splrr.com/",
     },
     {
         image: SpringCitySecurity,
         name: "Spring City Security",
+        path: "http://www.springcitysecurity.com/",
     },
     {
         image: StationOneDaycare,
         name: "Station One Daycare",
+        path: "https://www.facebook.com/StationOnePreschool",
     },
     {
         image: StricklandKey,
@@ -423,6 +452,7 @@ const SupporterData =
     {
         image: SurgeEnergy,
         name: "Surge Energy",
+        path: "https://www.surgeenergya.com/",
     },
     {
         image: TheBackroadBoutique,
@@ -443,14 +473,17 @@ const SupporterData =
     {
         image: TommyWhiteSupply,
         name: "Tommy White Supply",
+        path: "http://www.twsupply.com/",
     },
     {
         image: Tripoint,
         name: "Tri-Point",
+        path: "http://www.tri-point.tech/",
     },
     {
         image: TurneyLandManagement,
         name: "Turney Land Management",
+        path: "https://www.turneylandandminerals.com/",
     },
     {
         image: W3Energy,
@@ -459,10 +492,12 @@ const SupporterData =
     {
         image: WallConstruction,
         name: "Wall Construction",
+        path: "https://www.wallconstructionco.com/",
     },
     {
         image: WestTexasCoOp,
         name: "West Texas Co-Op",
+        path: "https://www.facebook.com/WesTexCoop/",
     },
     {
         image: WestTexasInsurance,
@@ -475,6 +510,7 @@ const SupporterData =
     {
         image: WSDustControl,
         name: "WS Dust Control",
+        path: "https://www.facebook.com/WS-Dust-Control-105888764134615/",
     },
     {
         image: WyndelandDehaCulp,
@@ -483,6 +519,7 @@ const SupporterData =
     {
         image: XtremeTankTechnologies,
         name: "Xtreme Tank Technologies",
+        path: "https://www.xtremetanktechnologies.com/",
     },
     {
         image: ZantPumpingandFarms,

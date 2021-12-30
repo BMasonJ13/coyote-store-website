@@ -23,6 +23,7 @@ const Supporters = () =>
                     <SupporterCard 
                     image={supporter.image}
                     name={supporter.name}
+                    path={supporter.path}
                     />
                 ))}
             </div>
