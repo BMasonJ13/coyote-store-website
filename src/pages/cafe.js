@@ -5,7 +5,6 @@ import NavBar from "../components/navbar/navbar";
 import SVGBanner from '../components/svg-banner/SVGBanner'
 import Footer from "../components/footer/Footer";
 
-import CoyoteSign from '../res/CoyoteSign.jpg'
 import WhiteBanner from '../res/svg/WhiteBanner.svg'
 
 import './cafe.css'
