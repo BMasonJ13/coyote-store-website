@@ -1,0 +1,77 @@
+
+
+:root{
+    --navigation-bar-color: #242424;
+    --logo-color: #EEEEEE;
+    --hover-color: #ED1C24;
+}
+
+.svg-banner-container{
+    position: relative;
+}
+
+.svg-banner-image{
+    height: 40vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.svg-banner-title{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--logo-color);
+}
+
+.svg-banner-title-black{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--navigation-bar-color);
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.svg-banner-action{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    text-decoration: none;
+    color: var(--logo-color);
+    background-color: var(--hover-color);
+    padding: 5px 30px;
+    border-radius: 20px;
+    font-size: .8rem;
+
+    transition: 0.4s;
+}
+
+.svg-banner-action-black{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    text-decoration: none;
+    color: var(--logo-color);
+    background-color: var(--navigation-bar-color);
+    padding: 5px 30px;
+    border-radius: 20px;
+    font-size: .8rem;
+
+    transition: 0.4s;
+}
+
+.svg-banner-action:hover{
+    background-color: var(--logo-color);
+    color: var(--hover-color);
+}
+
+.svg-banner-action-black:hover{
+    background-color: var(--logo-color);
+    color: var(--hover-color);
+}

@@ -1,13 +1,16 @@
 
 import React from 'react'
+import NavBar from '../components/navbar/navbar'
 
 const Accomodation = () =>
 {
 
     return(
-        <div>
-            
-        </div>
+        <>
+            <NavBar />
+
+            <Footer />
+        </>
     )
 
 }

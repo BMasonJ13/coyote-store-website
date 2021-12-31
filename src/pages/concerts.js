@@ -7,14 +7,25 @@ import './concerts.css'
 import ConcertData from '../components/concert-card/concert-data'
 import SuperConcertCard from "../components/super-concert-card/SuperConcertCard"
 import SuperCardImage from '../res/Trifecta.jpg'
+import SVGBanner from '../components/svg-banner/SVGBanner'
+import RedBanner from '../res/svg/RedBanner.svg'
 
 const Concerts = () => {
 
     return (
         <>
             <NavBar />
-
-            <div className="concert-cards-container" id="top"> 
+            <div className="concert-banner" id="top">
+                <SVGBanner 
+                svg={RedBanner}
+                title="Need a place to stay or park a RV?"
+                action="ACCOMMODATIONS"
+                path="/Accommodations"
+                black
+                buttonBlack                
+                />
+            </div>
+            <div className="concert-cards-container"> 
                 {ConcertData.map((concert) => (
                     <ConcertCard image={concert.image} 
                     artistName={concert.artistName} 

@@ -5,8 +5,8 @@ import Footer from '../components/footer/Footer'
 import SupporterCard from '../components/supporter-card/supportercard'
 import SupporterData from '../components/supporter-card/supporterdata'
 import './supporters.css'
-import Banner from '../components/banner/banner'
-import BannerImage from '../res/SupporterBanner.jpg'
+import BannerImage from '../res/svg/BannerWithFire.svg'
+import SVGBanner from '../components/svg-banner/SVGBanner'
 
 const Supporters = () =>
 {
@@ -15,8 +15,12 @@ const Supporters = () =>
         <>
             <NavBar />
             <div className="supporters-action-section">
-                <Banner image={BannerImage} title="BECOME A SUPPORTER">
-                </Banner>
+                <SVGBanner 
+                svg={BannerImage}
+                title="Become a supporter"
+                action="CONTACT"
+                path="/Contact"
+                />
             </div>
             <div className="supporters-card-section">
                 {SupporterData.map((supporter) => (

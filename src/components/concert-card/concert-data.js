@@ -85,8 +85,7 @@ const ConcertData =
         time: "7:00pm",
         path: "www.outhousetickets.com/Event/18712-Sammy_Kershaw",
         facebookLink: false
-    }
-
+    },
 ]
 
 export default ConcertData;
