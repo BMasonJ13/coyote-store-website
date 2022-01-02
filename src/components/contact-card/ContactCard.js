@@ -17,10 +17,15 @@ const ContactCard = ({image, name, description, email, phone}) =>
                     <h3>{name}</h3>
                 </div>
                 
+                { 
+                email ? 
                 <div className="contact-info-row">
                     <FontAwesomeIcon icon={Icons.faEnvelope} />
                     <h3>{email}</h3>
                 </div>
+                :
+                <></>
+                }
                 <div className="contact-info-row">
                     <FontAwesomeIcon icon={Icons.faPhone} />
                     <h3>{phone}</h3>

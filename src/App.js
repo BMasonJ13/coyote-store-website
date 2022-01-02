@@ -9,6 +9,7 @@ import Supporters from './pages/supporters';
 import Cafe from './pages/cafe'
 import Gallery from './pages/gallery';
 import Contact from './pages/contact';
+import Accommodation from './pages/acommodation';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route exact path='/Cafe' element={<Cafe />} />
         <Route exact path="/Merch" element={<Merch />} />
         <Route exact path="/Concerts" element={<Concerts/>} />
+        <Route exact path="/Accommodations" element={<Accommodation />} />
       </Routes>
     </BrowserRouter>
     </>

@@ -17,7 +17,7 @@ const Supporters = () =>
             <div className="supporters-action-section">
                 <SVGBanner 
                 svg={BannerImage}
-                title="Become a supporter"
+                title="JOIN THE COYOTE FAMILY"
                 action="CONTACT"
                 path="/Contact"
                 />

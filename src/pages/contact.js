@@ -5,9 +5,9 @@ import NavBar from "../components/navbar/navbar";
 import ContactCard from "../components/contact-card/ContactCard";
 import Footer from "../components/footer/Footer";
 
-import Becky from '../res/BeckyPic.png'
+import Becky from '../res/BeckyPic.jpg'
 import Ben from '../res/BenPic.jpg'
-import Rika from '../res/RikaPic.png'
+import Rika from '../res/RikaPic.jpg'
 
 const Contact = () =>
 {

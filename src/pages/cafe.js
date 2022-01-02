@@ -6,6 +6,7 @@ import SVGBanner from '../components/svg-banner/SVGBanner'
 import Footer from "../components/footer/Footer";
 
 import WhiteBanner from '../res/svg/WhiteBanner.svg'
+import Menu from '../res/Menu.jpg'
 
 import './cafe.css'
 
@@ -36,6 +37,7 @@ const Cafe = () =>
                     <h3>Sunday: 10am - 2pm</h3>
                 </div>
                 <h2>MENU</h2>
+                <img src={Menu} alt=""/>
             </div>
             <Footer />
         </>
