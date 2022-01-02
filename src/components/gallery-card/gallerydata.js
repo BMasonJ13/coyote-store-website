@@ -16,9 +16,7 @@ import CoyoteImage12 from '../../res/Gallery/CoyoteImage (12).jpg'
 import CoyoteImage13 from '../../res/Gallery/CoyoteImage (13).jpg'
 import CoyoteImage14 from '../../res/Gallery/CoyoteImage (14).jpg'
 import CoyoteImage15 from '../../res/Gallery/CoyoteImage (15).jpg'
-import CoyoteImage16 from '../../res/Gallery/CoyoteImage (16).jpg'
 import CoyoteImage17 from '../../res/Gallery/CoyoteImage (17).jpg'
-import CoyoteImage18 from '../../res/Gallery/CoyoteImage (18).jpg'
 import CoyoteImage19 from '../../res/Gallery/CoyoteImage (19).jpg'
 import CoyoteImage20 from '../../res/Gallery/CoyoteImage (20).jpg'
 import CoyoteImage21 from '../../res/Gallery/CoyoteImage (21).jpg'
@@ -101,13 +99,7 @@ const GalleryData =
         image: CoyoteImage15,
     },
     {
-        image: CoyoteImage16,
-    },
-    {
         image: CoyoteImage17,
-    },
-    {
-        image: CoyoteImage18,
     },
     {
         image: CoyoteImage19,
