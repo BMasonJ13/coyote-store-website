@@ -12,6 +12,12 @@ section{
     border-radius: 50px;
 }
 
+.footer-stick{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
 @media(max-width: 768px){
     section{
         width: 100%;

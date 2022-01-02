@@ -37,7 +37,7 @@ const Cafe = () =>
                     <h3>Sunday: 10am - 2pm</h3>
                 </div>
                 <h2>MENU</h2>
-                <img src={Menu} alt=""/>
+                <img className="cafe-image" src={Menu} alt=""/>
             </div>
             <Footer />
         </>

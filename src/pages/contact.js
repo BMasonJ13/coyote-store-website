@@ -5,7 +5,7 @@ import NavBar from "../components/navbar/navbar";
 import ContactCard from "../components/contact-card/ContactCard";
 import Footer from "../components/footer/Footer";
 
-import Becky from '../res/BeckyPic.jpg'
+import Becky from '../res/BeckyPic.png'
 import Ben from '../res/BenPic.jpg'
 import Rika from '../res/RikaPic.jpg'
 
@@ -33,7 +33,7 @@ const Contact = () =>
                 <ContactCard
                 image={Rika}
                 name="Rika Law"
-                description="Contact for coyote cafe services and catering."
+                description="Contact for Coyote Cafe services and catering."
                 email="RikaLaw5@gmail.com"
                 phone="(806) 759-8570"
                 />
