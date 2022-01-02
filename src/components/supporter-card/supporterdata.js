@@ -435,6 +435,7 @@ const SupporterData =
     {
         image: Sloshee,
         name: "Sloshee",
+        path: "https://www.Sloshee.com"
     },
     {
         image: SnellDrilling,
@@ -444,6 +445,7 @@ const SupporterData =
     {
         image: SnyderChamberofCommerce,
         name: "Snyder Chamber of Commerce",
+        path: "https://www.snyderchamber.org"
     },
     {
         image: SouthPlainsLogistics,
