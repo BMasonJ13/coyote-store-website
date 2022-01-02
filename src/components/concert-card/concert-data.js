@@ -15,6 +15,8 @@ import SKImage from '../../res/SammyKershaw.png'
 import FFBeans from '../../res/FarmFreshFrijoles.jpg'
 import TXHM from '../../res/TexasHits.jpg'
 
+import TG from '../../res/TG.jpg'
+
 const ConcertData = 
 [
     {
@@ -84,7 +86,7 @@ const ConcertData =
     {
         image: RMcImage,
         artistName: "Ronnie McDowell",
-        date: "Jul. 22cd",
+        date: "Jul. 22nd",
         time: "7:00pm",
         path: "www.outhousetickets.com/Event/18325-Ronnie_McDowell",
         facebookLink: false
@@ -105,6 +107,14 @@ const ConcertData =
         path: "www.outhousetickets.com/Event/18712-Sammy_Kershaw",
         facebookLink: false
     },
+    {
+        image: TG,
+        artistName: "TG Sheppard",
+        date: "Oct. 1st",
+        time: "6:00pm",
+        path: "www.outhousetickets.com/Event/18775-TG_Sheppard/",
+        facebookLink: false
+    }
 ]
 
 export default ConcertData;

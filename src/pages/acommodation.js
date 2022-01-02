@@ -26,7 +26,7 @@ const Accommodation = () =>
                 />
                 <ContactCard 
                 image={GTPic}
-                name="Gail Trails"
+                name="The Gail Trail"
                 description="Contact for rental spaces to park a RV."
                 phone="(806) 777-5376"
                 
