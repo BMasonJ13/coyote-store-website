@@ -286,7 +286,7 @@ const SupporterData =
     },
     {
         image: JamesandDianeSpringer,
-        name: "James and Diane Springer",
+        name: "James and Dianne Springer",
     },
     {
         image: JamieFletcher,
