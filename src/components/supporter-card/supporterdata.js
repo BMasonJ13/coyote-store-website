@@ -317,6 +317,7 @@ const SupporterData =
     {
         image: KRFERadio,
         name: "KRFE Radio",
+        path: "https://wilkesmedia.com/our-shows"
     },
     {
         image: KwikKar,

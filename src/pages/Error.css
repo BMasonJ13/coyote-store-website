@@ -1,0 +1,20 @@
+
+
+.error-text{
+
+    margin-top: 200px;
+
+    font-size: 5rem;
+
+}
+
+.error-description{
+    text-align: center;
+    font-weight: lighter;
+}
+
+.error-footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

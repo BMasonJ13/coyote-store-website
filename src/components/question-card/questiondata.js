@@ -2,10 +2,6 @@
 const QuestionData = 
 [
     {
-        question: "What is our Refund Policy?",
-        answer: "Tickets sold to Coyote Country Shows are non-refundable. In the event that a show is re-scheduled, tickets sold will honored at the new show date. \n\nIn the event that a show is cancelled, ticket holders may redeem Coyote Country ticket credits that may be used to attend any other Coyote Country Show throughout the calendar year."
-    },
-    {
         question: "Where is the Coyote Store?",
         answer: "Rumor tells that The Coyote Store is in the middle of nowhere, but that’s not exactly the case. The truth is, The Coyote Store is located in the middle of everywhere! Situated in Gail, Borden County, Texas, The Coyote is located where the Permian Basin meets the Plains, approximately 72 miles south of Lubbock and 80 miles north of Midland. The store is located at the intersection of Texas Farm to Market Road 669 and US Highway 180. "
     },
@@ -25,6 +21,18 @@ const QuestionData =
         question: "Is there food served?",
         answer: "Small Town Concessions hosts a variety of foods available to customers throughout the evening on show nights. They have the best philly cheese steak sandwiches, funnel cakes, burgers, quesadillas and more! Food can be purchased on site. The Coyote Store offers ticket options that include meals if desired at the time of ticket purchase for parties for four or more. Pre-paid meal tickets will be dispersed to applicable ticket holders at the gate on the day of show. "
     },
+    {
+        question: "What's the difference between a Coyote Concert and a Coyote Patio Show?",
+        answer: "The Coyote is home to a 150 seat patio, where our favorite local and regional bands entertain guests for  Fish Fry Friday Nights and other select dates throughout the year. Visitors can enjoy an evening with the best of Coyote Cuisine and the company of friends in an intimate setting that reflects the spirit of Coyote Country. Patio shows are not included in season ticket packages and are subject to cover charges."
+    },
+    {
+        question: "How can I get a season pass to The Coyote Store?",
+        answer: "The Coyote Store offers several options for becoming a season ticket holder. Options are available for businesses, groups of friends, and individuals. Businesses and visitors interested in purchasing season tables can contact the Coyote directly for admission details and package pricing."
+    },
+    {
+        question: "What is our Refund Policy?",
+        answer: "Tickets sold to Coyote Country Shows are non-refundable. In the event that a show is re-scheduled, tickets sold will honored at the new show date. \n\nIn the event that a show is cancelled, ticket holders may redeem Coyote Country ticket credits that may be used to attend any other Coyote Country Show throughout the calendar year."
+    }
 
 ]
 
