@@ -24,3 +24,10 @@ section{
         height: 55vh;
     }
 }
+
+@media(max-height: 568px){
+    section{
+       background-color: transparent;
+       overflow: visible;
+    }
+}

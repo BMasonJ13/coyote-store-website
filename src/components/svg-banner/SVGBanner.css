@@ -75,3 +75,25 @@
     background-color: var(--logo-color);
     color: var(--hover-color);
 }
+
+@media(max-height: 568px){
+    .svg-banner-title{
+        font-size: 1.3rem;
+    }
+
+    .svg-banner-title-black{
+        font-size: 1.3rem;
+    }
+
+    .svg-banner-action{
+        padding: 5px 30px;
+        border-radius: 20px;
+        font-size: .5rem;
+    }
+
+    .svg-banner-action-black{
+        padding: 5px 30px;
+        font-size: .7rem;
+    }
+
+}

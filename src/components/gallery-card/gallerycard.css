@@ -14,3 +14,8 @@
     height: 200px;
 }
 
+@media(max-height: 568px){
+    .gallery-card-container{
+        height: 90px;
+    }
+}
