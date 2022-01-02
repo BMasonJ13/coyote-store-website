@@ -54,6 +54,7 @@ import KDsKorral from '../../res/supporters/KDsKorral.jpg'
 import KeithandTammyHughes from '../../res/supporters/KeithandTammyHughes.jpg'
 import KLCTireCompany from '../../res/supporters/KLCTireCompany.jpg'
 import KRFERadio from '../../res/supporters/KRFERadio.jpg'
+import KW from '../../res/supporters/KW.jpg'
 import KwikKar from '../../res/supporters/KwikKar.jpg'
 
 import LisaLudeckeandJerryStone from '../../res/supporters/LisaLudeckeandJerryStone.jpg'
@@ -318,6 +319,11 @@ const SupporterData =
         image: KRFERadio,
         name: "KRFE Radio",
         path: "https://wilkesmedia.com/our-shows"
+    },
+    {
+        image: KW,
+        name: "K&W",
+        path: "https://www.kandwequipment.com/"
     },
     {
         image: KwikKar,
