@@ -19,9 +19,9 @@ const Cafe = () =>
             <div className="cafe-banner-section">
                 <SVGBanner 
                 svg={WhiteBanner}
-                title="BOOK A PRIVATE PARTY" 
-                action="Contact"
-                path="/Contact"
+                title="SEE OUR PATIO SHOWS" 
+                action="PATIO SHOWS"
+                path="/Concerts"
                 black
                 />
             </div>

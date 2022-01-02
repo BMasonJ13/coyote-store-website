@@ -15,7 +15,7 @@ const QuestionData =
     },
     {
         question: "Is there a place to stay?",
-            answer: "The Coyote Store partners with The Fairfield Inn of Snyder to offer special discount rates to our customers. Their phone number is 325-573-1400, be sure to tell them you are coming to a Coyote Show when you make a reservation to take advantage of the Coyote Country discount! Tickets must be presented to the hotel staff upon arrival for verification of attendance!             \nCampers are welcome and we usually have many.Campers may contact the Gail Trail RV Park at 806-777 - 5376 to make reservations.Keep in mind, they have limited spaces available, so make your reservations well in advance for full hook up stations.Additional camping sites are available for free to self- contained campers at locations around the venue."
+            answer: "The Coyote Store partners with The Fairfield Inn of Snyder to offer special discount rates to our customers. Their phone number is 325-573-1400, be sure to tell them you are coming to a Coyote Show when you make a reservation to take advantage of the Coyote Country discount! Tickets must be presented to the hotel staff upon arrival for verification of attendance! Campers are welcome and we usually have many. Campers may contact the Gail Trail RV Park at 806-777 - 5376 to make reservations. Keep in mind, they have limited spaces available, so make your reservations well in advance for full hook up stations. Additional camping sites are available for free to self- contained campers at locations around the venue."
     },
     {
         question: "Where will I sit?",

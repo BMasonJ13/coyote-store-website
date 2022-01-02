@@ -12,8 +12,19 @@ import JHImage from '../../res/JakeHooker.jpg'
 
 import SKImage from '../../res/SammyKershaw.png'
 
+import FFBeans from '../../res/FarmFreshFrijoles.jpg'
+import TXHM from '../../res/TexasHits.jpg'
+
 const ConcertData = 
 [
+    {
+        image: FFBeans,
+        artistName: "Farm Fresh Frijoles",
+        date: "Mar. 18th",
+        time: "6:00pm",
+        path: "www.facebook.com/events/1570681506618810",
+        facebookLink: true
+    },
     {
         image: RMImage,
         artistName: "Ronnie Milsap",
@@ -22,6 +33,14 @@ const ConcertData =
         path: "www.outhousetickets.com/Event/18550-Ronnie_Milsap",
         facebookLink: false
     }, 
+    {
+        image: TXHM,
+        artistName: "Texas Hits and a Miss",
+        date: "Mar. 25th",
+        time: "6:00pm",
+        path: "https://www.facebook.com/events/656506965804068",
+        facebookLink: true
+    },
     {
         image: GPImage,
         artistName: "Gary P. Nunn",
