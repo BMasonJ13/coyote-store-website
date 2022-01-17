@@ -16,6 +16,7 @@ import CaprockCreditUnition from '../../res/supporters/CaprockCreditUnition.jpg'
 import Chapman from '../../res/supporters/Chapman.jpg'
 import ChoateWellService from '../../res/supporters/ChoateWellService.png'
 import ChirstyandCharlesGarner from '../../res/supporters/ChristyandCharlesGarner.jpg'
+import ClarksRoofing from '../../res/supporters/ClarksRoofing.png'
 import CommercialElectricWolforthTexas from '../../res/supporters/CommercialElectricWolforthTexas.jpg'
 import CotterKeyFarms from '../../res/supporters/CotterKeyFarms.jpg'
 
@@ -184,6 +185,11 @@ const SupporterData =
     {
         image: ChirstyandCharlesGarner,
         name: "Christy and Charles Garner",
+    },
+    {
+        image: ClarksRoofing,
+        name: "Clarks Roofing",
+        path: "https://clarksroofingandconstruction.com/"
     },
     {
         image: CommercialElectricWolforthTexas,
