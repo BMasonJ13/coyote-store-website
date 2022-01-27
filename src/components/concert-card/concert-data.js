@@ -80,8 +80,7 @@ const ConcertData =
         artistName: "Will Banister",
         date: "Jun. 18th",
         time: "8:00pm",
-        path: "www.facebook.com/events/399335528411265/?acontext=%7B%22event_action_history%22%3A[%7B%22surface%22%3A%22page%22%7D]%7D",
-        facebookLink: true
+        path: "www.outhousetickets.com/Event/m18992-Will_Banister/",
     },
     {
         image: RMcImage,

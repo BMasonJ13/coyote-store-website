@@ -20,7 +20,7 @@ const Contact = () =>
                 image={Becky}
                 name="Becky Justice Ford"
                 description="Contact for venue rentals, sponsorships, advertising, booking, and annual table sales."
-                email="TheLegendaryCoyoteStore@gmail.com"
+                email="CoyoteCountryStore@gmail.com"
                 phone="(806) 759-9355"
                 />
                 <ContactCard
