@@ -4,6 +4,7 @@ import GPImage from '../../res/garypnunn.jpg'
 import TBImage from '../../res/TracyByrd.jpg'
 
 import SImage from '../../res/Shenandoah.jpg'
+import DiamondRio from '../../res/DiamondRio.jpg'
 import AATWImage from '../../res/AATW.jpg'
 import WBImage from '../../res/WillBanister.jpg'
 
@@ -65,6 +66,14 @@ const ConcertData =
         date: "May 14th",
         time: "7:00pm",
         path: "www.outhousetickets.com/Event/18323-Shenandoah_-_Playing_for_Veterans",
+        facebookLink: false
+    },
+    {
+        image: DiamondRio,
+        artistName: "Diamond Rio",
+        date: "Jun. 3rd",
+        time: "7:00pm",
+        path: "www.outhousetickets.com/Event/19040-Diamond_Rio/",
         facebookLink: false
     },
     {
