@@ -403,7 +403,8 @@ const SupporterData =
     },
     {
         image: ReedAuctionServices,
-        name: "Reed Auction Services",
+        name: "Reed Auction Services", 
+        path: "http://www.richardsauction.com/"
     },
     {
         image: RobinsonFarms,
