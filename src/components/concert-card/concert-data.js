@@ -1,6 +1,3 @@
-
-import RMImage from '../../res/ronniemilsap.jpg'
-import GPImage from '../../res/garypnunn.jpg'
 import TBImage from '../../res/TracyByrd.jpg'
 
 import SImage from '../../res/Shenandoah.jpg'
@@ -13,45 +10,11 @@ import JHImage from '../../res/JakeHooker.jpg'
 
 import SKImage from '../../res/SammyKershaw.png'
 
-import FFBeans from '../../res/FarmFreshFrijoles.jpg'
-import TXHM from '../../res/TexasHits.jpg'
-
 import TG from '../../res/TG.jpg'
+import NealMcCoy from '../../res/NealMcCoy.png'
 
 const ConcertData = 
 [
-    {
-        image: FFBeans,
-        artistName: "Farm Fresh Frijoles",
-        date: "Mar. 18th",
-        time: "6:00pm",
-        path: "www.facebook.com/events/1570681506618810",
-        facebookLink: true
-    },
-    {
-        image: RMImage,
-        artistName: "Ronnie Milsap",
-        date: "Mar. 19th",
-        time: "7:00pm",
-        path: "www.outhousetickets.com/Event/18550-Ronnie_Milsap",
-        facebookLink: false
-    }, 
-    {
-        image: TXHM,
-        artistName: "Texas Hits and a Miss",
-        date: "Mar. 25th",
-        time: "6:00pm",
-        path: "https://www.facebook.com/events/656506965804068",
-        facebookLink: true
-    },
-    {
-        image: GPImage,
-        artistName: "Gary P. Nunn",
-        date: "Mar. 26th",
-        time: "6:00pm",
-        path: "www.outhousetickets.com/Event/18061-Gary_P_Nunn_with_the_Kipp_Wilks_Band",
-        facebookLink: false
-    },
     {
         image: TBImage,
         artistName: "Tracy Byrd",
@@ -113,6 +76,14 @@ const ConcertData =
         date: "Jul. 30th",
         time: "7:00pm",
         path: "www.outhousetickets.com/Event/18712-Sammy_Kershaw",
+        facebookLink: false
+    },
+    {
+        image: NealMcCoy,
+        artistName: "Neal McCoy",
+        date: "Aug. 27th",
+        time: "8:00pm",
+        path: "www.outhousetickets.com/Event/m19310-Neal_McCoy/",
         facebookLink: false
     },
     {
