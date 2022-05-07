@@ -5,6 +5,7 @@ import ConcertCard from '../components/concert-card/concert-card';
 import AATW from '../res/AATW.jpg'
 import SImage from '../res/Shenandoah.jpg'
 import DiamondRio from '../res/DiamondRio.jpg'
+import WBan from '../res/WillBanister.jpg'
 import FlipClock from '../components/flip-clock/flipclock'
 
 import styles from './Home.module.css'
@@ -24,15 +25,6 @@ const Home = () => {
                 <div className="card-section-container">
                     <div className="card-section-show">
                         <ConcertCard
-                            image={SImage}
-                            artistName="Shenandoah"
-                            date="May 14th"
-                            time="7:00pm"
-                            path="https://www.outhousetickets.com/Event/18323-Shenandoah_-_Playing_for_Veterans"
-                        />
-                    </div>
-                    <div className="card-section-show">
-                        <ConcertCard
                             image={DiamondRio}
                             artistName="Diamond Rio"
                             date="Jun. 3rd"
@@ -47,6 +39,15 @@ const Home = () => {
                             date="Jun. 17th"
                             time="7:00pm"
                             path="https://www.outhousetickets.com/Event/18320-Asleep_at_the_Wheel"
+                        />
+                    </div>
+                    <div className="card-section-show">
+                        <ConcertCard
+                            image={WBan}
+                            artistName="Will Banister"
+                            date="Jun. 18th"
+                            time="8:00pm"
+                            path="https://www.outhousetickets.com/Event/m18992-Will_Banister/"
                         />
                     </div>
                 </div>
