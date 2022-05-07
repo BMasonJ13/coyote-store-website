@@ -3,7 +3,6 @@ import Footer from '../components/footer/Footer';
 import NavBar from '../components/navbar/navbar'
 import ConcertCard from '../components/concert-card/concert-card';
 import AATW from '../res/AATW.jpg'
-import SImage from '../res/Shenandoah.jpg'
 import DiamondRio from '../res/DiamondRio.jpg'
 import WBan from '../res/WillBanister.jpg'
 import FlipClock from '../components/flip-clock/flipclock'
