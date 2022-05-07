@@ -1,4 +1,7 @@
 
+.contact-page{
+    min-height: calc(100vh - 74px - 126px - 50px);
+}
 
 .contact-card-section{
     margin-top: 130px;
