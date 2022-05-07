@@ -119,7 +119,7 @@ class FlipClock extends React.Component {
 
     updateTime() {
         // get new date
-        const time = new Date;
+        const time = new Date();
         // set time units
         // get total seconds between the times
         var delta = Math.abs(this.props.date - time) / 1000;
