@@ -13,6 +13,8 @@ import SKImage from '../../res/SammyKershaw.png'
 import TG from '../../res/TG.jpg'
 import NealMcCoy from '../../res/NealMcCoy.png'
 
+import GAndLee from '../../res/GAndLee.png'
+
 const ConcertData = 
 [
     {
@@ -93,6 +95,14 @@ const ConcertData =
         time: "6:00pm",
         path: "www.outhousetickets.com/Event/18775-TG_Sheppard/",
         facebookLink: false
+    },
+    {
+        image: GAndLee,
+        artistName: "Mickey Gilley and Johnny Lee",
+        date: "Oct. 15th",
+        time: "6:00pm",
+        path: "www.outhousetickets.com/Event/19493-URBAN_COWBOY_IN_COYOTE_COUNTRY_-_MICKEY_GILLEY__JOHNNY_LEE/",
+        facebookLink: false,
     }
 ]
 
