@@ -18,22 +18,6 @@ import GAndLee from '../../res/GAndLee.png'
 const ConcertData = 
 [
     {
-        image: TBImage,
-        artistName: "Tracy Byrd",
-        date: "Apr. 9th",
-        time: "7:00pm",
-        path: "www.outhousetickets.com/Event/18082-Tracy_Byrd",
-        facebookLink: false
-    },
-    {
-        image: SImage,
-        artistName: "Shenandoah",
-        date: "May 14th",
-        time: "7:00pm",
-        path: "www.outhousetickets.com/Event/18323-Shenandoah_-_Playing_for_Veterans",
-        facebookLink: false
-    },
-    {
         image: DiamondRio,
         artistName: "Diamond Rio",
         date: "Jun. 3rd",
@@ -89,16 +73,8 @@ const ConcertData =
         facebookLink: false
     },
     {
-        image: TG,
-        artistName: "TG Sheppard",
-        date: "Oct. 1st",
-        time: "6:00pm",
-        path: "www.outhousetickets.com/Event/18775-TG_Sheppard/",
-        facebookLink: false
-    },
-    {
         image: GAndLee,
-        artistName: "Mickey Gilley and Johnny Lee",
+        artistName: "TG Sheppard and Johnny Lee",
         date: "Oct. 15th",
         time: "6:00pm",
         path: "www.outhousetickets.com/Event/19493-URBAN_COWBOY_IN_COYOTE_COUNTRY_-_MICKEY_GILLEY__JOHNNY_LEE/",
