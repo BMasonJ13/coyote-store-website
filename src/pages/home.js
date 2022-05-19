@@ -15,7 +15,7 @@ const Home = () => {
         <>
             <NavBar />
             <div className={styles.hero}>
-                <h1 className={styles.text}>Shenandoah</h1>
+                <h1 className={styles.text}>Diamond Rio</h1>
                 <FlipClock className={styles.flip} date={new Date("06/03/2022 7:00 PM")} />
                 <a className={styles.button} buttonColor={"red"} href={"https://www.outhousetickets.com/Event/18323-Shenandoah_-_Playing_for_Veterans"}>GET TICKETS</a>
             </div>

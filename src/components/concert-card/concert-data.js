@@ -1,6 +1,3 @@
-import TBImage from '../../res/TracyByrd.jpg'
-
-import SImage from '../../res/Shenandoah.jpg'
 import DiamondRio from '../../res/DiamondRio.jpg'
 import AATWImage from '../../res/AATW.jpg'
 import WBImage from '../../res/WillBanister.jpg'
@@ -10,7 +7,6 @@ import JHImage from '../../res/JakeHooker.jpg'
 
 import SKImage from '../../res/SammyKershaw.png'
 
-import TG from '../../res/TG.jpg'
 import NealMcCoy from '../../res/NealMcCoy.png'
 
 import GAndLee from '../../res/GAndLee.png'
