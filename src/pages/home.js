@@ -17,7 +17,7 @@ const Home = () => {
             <div className={styles.hero}>
                 <h1 className={styles.text}>Diamond Rio</h1>
                 <FlipClock className={styles.flip} date={new Date("06/03/2022 7:00 PM")} />
-                <a className={styles.button} buttonColor={"red"} href={"https://www.outhousetickets.com/Event/18323-Shenandoah_-_Playing_for_Veterans"}>GET TICKETS</a>
+                <a className={styles.button} buttonColor={"red"} href={"https://www.outhousetickets.com/Event/19040-Diamond_Rio/"}>GET TICKETS</a>
             </div>
             <div className="card-section">
                 <h1>UPCOMING SHOWS</h1>
