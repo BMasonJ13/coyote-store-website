@@ -1,7 +1,3 @@
-import DiamondRio from '../../res/DiamondRio.jpg'
-import AATWImage from '../../res/AATW.jpg'
-import WBImage from '../../res/WillBanister.jpg'
-
 import RMcImage from '../../res/RonnieMcDowell.jpg'
 import JHImage from '../../res/JakeHooker.jpg'
 
@@ -13,29 +9,6 @@ import GAndLee from '../../res/GAndLee.png'
 
 const ConcertData = 
 [
-    {
-        image: DiamondRio,
-        artistName: "Diamond Rio",
-        date: "Jun. 3rd",
-        time: "7:00pm",
-        path: "www.outhousetickets.com/Event/19040-Diamond_Rio/",
-        facebookLink: false
-    },
-    {
-        image: AATWImage,
-        artistName: "Asleep at the Wheel",
-        date: "Jun. 17th",
-        time: "7:00pm",
-        path: "www.outhousetickets.com/Event/18320-Asleep_at_the_Wheel",
-        facebookLink: false
-    },
-    {
-        image: WBImage,
-        artistName: "Will Banister",
-        date: "Jun. 18th",
-        time: "8:00pm",
-        path: "www.outhousetickets.com/Event/m18992-Will_Banister/",
-    },
     {
         image: RMcImage,
         artistName: "Ronnie McDowell",
