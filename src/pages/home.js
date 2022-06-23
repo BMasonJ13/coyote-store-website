@@ -21,7 +21,7 @@ const Home = () => {
             <NavBar />
             <div className={styles.hero}>
                 <h1 className={styles.text}>Ronnie McDowell</h1>
-                <FlipClock className={styles.flip} date={new Date("06/03/2022 7:00 PM")} />
+                <FlipClock className={styles.flip} date={new Date("07/22/2022 7:00 PM")} />
                 <a className={styles.button} buttonColor={"red"} href={"www.outhousetickets.com/Event/m18992-Will_Banister/"}>GET TICKETS</a>
             </div>
             <div className="card-section">
