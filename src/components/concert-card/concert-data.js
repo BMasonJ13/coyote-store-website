@@ -14,7 +14,7 @@ const ConcertData =
         artistName: "Ronnie McDowell",
         date: "Jul. 22nd",
         time: "7:00pm",
-        path: "www.outhousetickets.com/Event/18325-Ronnie_McDowell",
+        path: "https://www.outhousetickets.com/Event/18325-Ronnie_McDowell",
         facebookLink: false
     },
     {
@@ -22,7 +22,7 @@ const ConcertData =
         artistName: "Jake Hooker",
         date: "Jul. 23rd",
         time: "8:00pm",
-        path: "www.outhousetickets.com/Event/18547-Jake_Hooker_and_The_Outsiders",
+        path: "https://www.outhousetickets.com/Event/18547-Jake_Hooker_and_The_Outsiders",
         facebookLink: false
     },
     {
@@ -30,7 +30,7 @@ const ConcertData =
         artistName: "Sammy Kershaw",
         date: "Jul. 30th",
         time: "7:00pm",
-        path: "www.outhousetickets.com/Event/18712-Sammy_Kershaw",
+        path: "https://www.outhousetickets.com/Event/18712-Sammy_Kershaw",
         facebookLink: false
     },
     {
@@ -38,7 +38,7 @@ const ConcertData =
         artistName: "Neal McCoy",
         date: "Aug. 27th",
         time: "8:00pm",
-        path: "www.outhousetickets.com/Event/m19310-Neal_McCoy/",
+        path: "https://www.outhousetickets.com/Event/m19310-Neal_McCoy/",
         facebookLink: false
     },
     {
@@ -46,7 +46,7 @@ const ConcertData =
         artistName: "TG Sheppard and Johnny Lee",
         date: "Oct. 15th",
         time: "6:00pm",
-        path: "www.outhousetickets.com/Event/19493-URBAN_COWBOY_IN_COYOTE_COUNTRY_-_MICKEY_GILLEY__JOHNNY_LEE/",
+        path: "https://www.outhousetickets.com/Event/19493-URBAN_COWBOY_IN_COYOTE_COUNTRY_-_MICKEY_GILLEY__JOHNNY_LEE/",
         facebookLink: false,
     }
 ]

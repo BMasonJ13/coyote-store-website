@@ -31,7 +31,7 @@ const Concerts = () => {
                     artistName={concert.artistName} 
                     date={concert.date} 
                     time={concert.time}
-                    path={"https://" + concert.path}
+                    path={concert.path}
                     facebookLink={concert.facebookLink}
                     />
                 ))}
