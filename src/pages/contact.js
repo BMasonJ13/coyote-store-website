@@ -6,7 +6,6 @@ import ContactCard from "../components/contact-card/ContactCard";
 import Footer from "../components/footer/Footer";
 
 import Becky from '../res/BeckyPic.png'
-import Ben from '../res/BenPic.jpg'
 //import Rika from '../res/RikaPic.jpg'
 
 const Contact = () => {
@@ -30,13 +29,13 @@ const Contact = () => {
                 email="RikaLaw5@gmail.com"
                 phone="(806) 759-8570"
                 /> */}
-                    <ContactCard
+                    {/* <ContactCard
                         image={Ben}
                         name="Benton Justice"
                         description="Contact for web development and technical assistance."
                         email="BMasonJ13@gmail.com"
                         phone="(806) 789-2056"
-                    />
+                    /> */}
                 </div>
             </div>
             <div className="contact-footer">

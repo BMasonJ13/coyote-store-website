@@ -2,17 +2,10 @@ import './home.css'
 import Footer from '../components/footer/Footer';
 import NavBar from '../components/navbar/navbar'
 import ConcertCard from '../components/concert-card/concert-card';
-import AATW from '../res/AATW.jpg'
-import RMcImage from '../res/RonnieMcDowell.jpg'
-import WBan from '../res/WillBanister.jpg'
 import FlipClock from '../components/flip-clock/flipclock'
 import ConcertData from '../components/concert-card/concert-data';
 
 import styles from './Home.module.css'
-
-function GetUpcoming() {
-
-}
 
 const Home = () => {
 
@@ -42,6 +35,8 @@ const Home = () => {
                                     />
                                 </div>
                             )
+                            else
+                                return <></>
                     })}
                 </div>
 
