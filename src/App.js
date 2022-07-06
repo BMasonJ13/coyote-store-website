@@ -5,8 +5,6 @@ import { BrowserRouter, Routes, Route, Navigate} from 'react-router-dom'
 import Merch from './pages/merch'
 import Concerts from './pages/concerts';
 import FAQ from './pages/faq';
-import Supporters from './pages/supporters';
-import Cafe from './pages/cafe'
 import Gallery from './pages/gallery';
 import Contact from './pages/contact';
 import Accommodation from './pages/acommodation';
