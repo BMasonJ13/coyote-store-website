@@ -22,9 +22,9 @@ function App() {
         <Route exact path="/About" element={<About />} />
         <Route exact path="/Contact" element={<Contact />} />
         <Route exact path="/FAQ" element={<FAQ />} />
-        <Route exact path='/Supporters' element={<Supporters />} />
+        {/* <Route exact path='/Supporters' element={<Supporters />} /> */}
         <Route exact path='/Gallery' element={<Gallery />} />
-        <Route exact path='/Cafe' element={<Cafe />} />
+        {/* <Route exact path='/Cafe' element={<Cafe />} /> */}
         <Route exact path="/Merch" element={<Merch />} />
         <Route exact path="/Concerts" element={<Concerts/>} />
         <Route exact path="/Accommodations" element={<Accommodation />} />
