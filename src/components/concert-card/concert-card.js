@@ -21,7 +21,7 @@ const ConcertCard = ({image, artistName, date, time, path, facebookLink}) =>
                     </div>
                     <div className="info-row">
                         <FontAwesomeIcon className="icon" icon={Icons.faCalendar} />
-                        <h3>{date}</h3>
+                        <h3>{date.substring(0, date.length - 2)}<sup>{date.substring(date.length - 2)}</sup></h3>
                     </div>
                     <div className="info-row">
                         <FontAwesomeIcon className="icon" icon={Icons.faClock} />
@@ -32,7 +32,7 @@ const ConcertCard = ({image, artistName, date, time, path, facebookLink}) =>
                         <h3>BYOB</h3>
                     </div>
                 </div>
-                <a className="concert-ticket-button" href={path} target="_blank" rel="noopener noreferrer">{facebookLink? "MORE INFORMATION" : "GET TICKETS"}</a>
+                <a className="concert-ticket-button" href={path} target="_blank" rel="noopener noreferrer">{"GET TICKETS"}</a>
             </div>
         </div>
 
