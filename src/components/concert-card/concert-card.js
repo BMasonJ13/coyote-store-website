@@ -32,7 +32,7 @@ const ConcertCard = ({image, artistName, date, time, path, facebookLink}) =>
                         <h3>BYOB</h3>
                     </div>
                 </div>
-                <a className="concert-ticket-button" href={path} target="_blank" rel="noopener noreferrer">{"GET TICKETS"}</a>
+                <a className="concert-ticket-button" href={path} target="_blank" rel="noopener noreferrer">{facebookLink ? "LEARN MORE" : "GET TICKETS"}</a>
             </div>
         </div>
 
