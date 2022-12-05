@@ -59,6 +59,10 @@
     color: var(--white-color);
 }
 
+.super{
+    font-size: 0.7rem;
+}
+
 #beer{
     margin-left: 2.5px;
 }

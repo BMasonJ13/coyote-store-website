@@ -1,54 +1,70 @@
-import RMcImage from '../../res/RonnieMcDowell.jpg'
-import JHImage from '../../res/JakeHooker.jpg'
 
-import SKImage from '../../res/SammyKershaw.png'
-
-import NealMcCoy from '../../res/NealMcCoy.png'
-
-import GAndLee from '../../res/GAndLee.png'
+import malb from '../../res/2023/cards/malpass.jpg'
+import mb from '../../res/2023/cards/mbandy.jpg'
+import jc from '../../res/2023/cards/jConlee.webp'
+import lm from '../../res/2023/cards/lMorgan.jpg'
+import mc from '../../res/2023/cards/mChesnutt.jpg'
+import tl from '../../res/2023/cards/tAndL.jpg'
+import exile from '../../res/2023/cards/exile.jpeg'
 
 const ConcertData = 
 [
     {
-        image: RMcImage,
-        artistName: "Ronnie McDowell",
-        date: "Jul. 22nd",
-        time: "7:00pm",
-        path: "https://www.outhousetickets.com/Event/18325-Ronnie_McDowell",
-        facebookLink: false
-    },
-    {
-        image: JHImage,
-        artistName: "Jake Hooker",
-        date: "Jul. 23rd",
+        image: malb,
+        artistName: "The Malpass Brothers",
+        date: "Mar. 24th",
         time: "8:00pm",
-        path: "https://www.outhousetickets.com/Event/18547-Jake_Hooker_and_The_Outsiders",
+        path: "https://www.outhousetickets.com/Event/20613-The_Malpass_Brothers",
         facebookLink: false
     },
     {
-        image: SKImage,
-        artistName: "Sammy Kershaw",
-        date: "Jul. 30th",
+        image: mb,
+        artistName: "Moe Bandy",
+        date: "Mar. 25th",
         time: "7:00pm",
-        path: "https://www.outhousetickets.com/Event/18712-Sammy_Kershaw",
+        path: "https://www.outhousetickets.com/Event/20220-MOE_BANDY_with_guest_James_Carothers/",
         facebookLink: false
     },
     {
-        image: NealMcCoy,
-        artistName: "Neal McCoy",
-        date: "Aug. 27th",
-        time: "8:00pm",
-        path: "https://www.outhousetickets.com/Event/m19310-Neal_McCoy/",
-        facebookLink: false
-    },
-    {
-        image: GAndLee,
-        artistName: "TG Sheppard and Johnny Lee",
-        date: "Oct. 15th",
+        image: jc,
+        artistName: "John Conlee",
+        date: "May 6th",
         time: "6:00pm",
-        path: "https://www.outhousetickets.com/Event/19493-URBAN_COWBOY_IN_COYOTE_COUNTRY_-_MICKEY_GILLEY__JOHNNY_LEE/",
-        facebookLink: false,
-    }
+        path: "https://www.outhousetickets.com/Event/20221-John_Conlee/",
+        facebookLink: false
+    },
+    {
+        image: lm,
+        artistName: "Lorrie Morgan",
+        date: "Jun. 10th",
+        time: "6:00pm",
+        path: "https://www.outhousetickets.com/Event/20222-Lorrie_Morgan/",
+        facebookLink: false
+    },
+    {
+        image: tl,
+        artistName: "Twitty & Lynn",
+        date: "Jul. 15th",
+        time: "6:00pm",
+        path: "https://www.outhousetickets.com/Event/20359-Twitty__Lynn_A_Salute_to_Conway_and_Loretta_/",
+        facebookLink: false
+    },
+    {
+        image: mc,
+        artistName: "Mark Chesnutt",
+        date: "Jul. 29th",
+        time: "7:00pm",
+        path: "https://www.outhousetickets.com/Event/20612-MARK_CHESNUTT_/",
+        facebookLink: false
+    },
+    {
+        image: exile,
+        artistName: "Exile",
+        date: "Sep. 30th",
+        time: "6:00pm",
+        path: "https://www.outhousetickets.com/Event/20614-Exile_with_Ronnie_McDowell_/",
+        facebookLink: false
+    },
 ]
 
 export default ConcertData;

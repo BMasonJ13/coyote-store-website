@@ -22,20 +22,7 @@ const Contact = () => {
                         email="CoyoteCountryStore@gmail.com"
                         phone="(806) 759-9355"
                     />
-                    {/* <ContactCard
-                image={Rika}
-                name="Rika Law"
-                description="Contact for Coyote Cafe services and catering."
-                email="RikaLaw5@gmail.com"
-                phone="(806) 759-8570"
-                /> */}
-                    {/* <ContactCard
-                        image={Ben}
-                        name="Benton Justice"
-                        description="Contact for web development and technical assistance."
-                        email="BMasonJ13@gmail.com"
-                        phone="(806) 789-2056"
-                    /> */}
+                    
                 </div>
             </div>
             <div className="contact-footer">

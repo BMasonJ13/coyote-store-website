@@ -13,8 +13,8 @@ const Home = () => {
         <>
             <NavBar />
             <div className={styles.hero}>
-                <h1 className={styles.text}>Ronnie McDowell</h1>
-                <FlipClock className={styles.flip} date={new Date("07/22/2022 7:00 PM")} />
+                <h1 className={styles.text}>The Malpass Brothers</h1>
+                <FlipClock className={styles.flip} date={new Date("03/24/2023 5:00 PM")} />
                 <a className={styles.button} buttonColor={"red"} href={"https://www.outhousetickets.com/Event/18325-Ronnie_McDowell"}>GET TICKETS</a>
             </div>
             <div className="card-section">
